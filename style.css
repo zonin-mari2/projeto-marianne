@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: #424e61;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#424e61,#4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+    
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px;
+}
+.estudante-div{
+    text-align: center;
+    
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+
+}
+.rodape{
+    background-color: black;
+    text-align: center;   
+}
+
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+
+.estudante-descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 0px
+    
+}
+.grupo-titulo{
+    padding: 30px;   
+}
+.texto-um{
+    /* superior | direita | inferior | esquerda */
+    padding: 0px 1em 0 1em;
+}
+.estudante-conteudo{
+    width: 40%; 
+    
+}
+.imagem-grupo{
+    width: 30%;   
+    /* superior | direita | inferior | esquerda */
+    padding: 1rem 1rem 1rem 1rem;
+} 
+
+
+.grade-fotos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    /* superior | direita | inferior | esquerda */
+    padding: 1rem 5rem 1rem 5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.imagem-grade{
+    width: 70%;  
+}
+
+.texto-descricao-escola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.texto-escola-conteudo{
+    width: 50%;
+}
+.titulo-texto-escola{
+    padding: 24px 0;
+}
+.imagem-texto-escola{
+    padding: 24px;
+}
